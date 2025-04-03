@@ -17,6 +17,30 @@ const about = {
   },
 }
 
+const testimonials = [
+  {
+    name: 'John Doe',
+    role: 'Senior Software Engineer',
+    company: 'Tech Corp',
+    image: 'https://via.placeholder.com/150',
+    text: 'Jonathas is an exceptional developer who consistently delivers high-quality code. His attention to detail and problem-solving skills are outstanding.',
+  },
+  {
+    name: 'Jane Smith',
+    role: 'Project Manager',
+    company: 'Innovation Labs',
+    image: 'https://via.placeholder.com/150',
+    text: 'Working with Jonathas was a pleasure. His communication skills and ability to work in a team environment made our project a success.',
+  },
+  {
+    name: 'Mike Johnson',
+    role: 'CTO',
+    company: 'StartUp Inc',
+    image: 'https://via.placeholder.com/150',
+    text: 'Jonathas brought valuable expertise to our team. His technical knowledge and dedication to quality were instrumental in our project\'s success.',
+  },
+]
+
 const projects = [
   {
     name: 'Project 1',
@@ -65,4 +89,4 @@ const contact = {
   email: 'calderonjonathas@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, contact, testimonials }
