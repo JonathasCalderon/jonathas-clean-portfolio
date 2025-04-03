@@ -9,8 +9,8 @@ const about = {
   name: 'Jonathas Calderon',
   role: 'Software Developer',
   description:
-    'I’m a skilled software developer with 5 years of experience, specializing in delivering high-quality solutions to complex challenges. Passionate about continuous learning, I stay up-to-date with the latest technologies. I excel in collaborative and remote team settings, bringing strong communication skills in English, Spanish, and Portuguese. My adaptability and dedication to excellence make me a valuable asset in dynamic development environments.',
-  resume: 'https://example.com',
+    "I'm a skilled software developer with 5 years of experience, specializing in delivering high-quality solutions to complex challenges. Passionate about continuous learning, I stay up-to-date with the latest technologies. I excel in collaborative and remote team settings, bringing strong communication skills in English, Spanish, and Portuguese. My adaptability and dedication to excellence make me a valuable asset in dynamic development environments.",
+  resume: '/assets/ResumeJonathasCalderon2024.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/jonathas-calderon/',
     github: 'https://github.com/JonathasCalderon',
