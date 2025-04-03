@@ -26,6 +26,13 @@ const testimonials = [
     text: 'Jonathas is an exceptional developer who consistently delivers high-quality code. His attention to detail and problem-solving skills are outstanding.',
   },
   {
+    name: 'John Doe',
+    role: 'Senior Software Engineer',
+    company: 'Tech Corp',
+    image: 'https://via.placeholder.com/150',
+    text: 'Jonathas is an exceptional developer who consistently delivers high-quality code. His attention to detail and problem-solving skills are outstanding.',
+  },
+  {
     name: 'Jane Smith',
     role: 'Project Manager',
     company: 'Innovation Labs',
