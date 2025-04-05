@@ -11,7 +11,7 @@ import './Contact.css'
 const Contact = () => {
   const [{ themeName }] = useContext(ThemeContext)
 
-  const handleEmailClick = () => {
+  const handleEmailClick = () => {  
     window.location.href = 'mailto:calderonjonathas@gmail.com'
   }
 
