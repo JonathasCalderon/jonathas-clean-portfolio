@@ -94,6 +94,8 @@ const skills = [
 
 const contact = {
   email: 'calderonjonathas@gmail.com',
+  phone: '+1 (123) 456-7890',
+  location: 'San Francisco, CA',
 }
 
 export { header, about, projects, skills, contact, testimonials }
