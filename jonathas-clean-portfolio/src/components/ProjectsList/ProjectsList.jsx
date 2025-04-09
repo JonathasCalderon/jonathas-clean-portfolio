@@ -3,6 +3,7 @@ import { ThemeContext } from '../../contexts/theme'
 import { projects } from '../../portfolio'
 import { Link } from 'react-router-dom'
 import Header from '../Header/Header'
+import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import './ProjectsList.css'
 
 const ProjectsList = () => {
@@ -18,48 +19,13 @@ const ProjectsList = () => {
           
           <div className='projects-list__grid'>
             {projects.map((project, index) => (
-              <div key={index} className='projects-list__item'>
-                <h3 className='projects-list__title'>{project.name}</h3>
-                <p className='projects-list__description'>{project.description}</p>
-                
-                {project.stack && (
-                  <ul className='projects-list__stack'>
-                    {project.stack.map((item, i) => (
-                      <li key={i} className='projects-list__stack-item'>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                )}
-                
-                <div className='projects-list__links'>
-                  {project.sourceCode && (
-                    <a
-                      href={project.sourceCode}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className='projects-list__link'
-                    >
-                      Source Code
-                    </a>
-                  )}
-                  
-                  {project.livePreview && (
-                    <a
-                      href={project.livePreview}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className='projects-list__link'
-                    >
-                      Live Preview
-                    </a>
-                  )}
-                  
-                  <Link to={`/project/${index}`} className='projects-list__link'>
-                    View Details
-                  </Link>
-                </div>
-              </div>
+              <Link 
+                key={index} 
+                to={`/project/${index}`}
+                className='projects-list__link'
+              >
+                <ProjectContainer project={project} />
+              </Link>
             ))}
           </div>
           

@@ -3,6 +3,7 @@
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
+  padding: 2rem 0;
 }
 
 .projects-list__grid {
@@ -23,12 +24,13 @@
   border-radius: 0.5rem;
   padding: 2rem;
   box-shadow: var(--shadow);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.2s ease-in-out;
+  text-decoration: none;
+  color: inherit;
 }
 
 .projects-list__item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
 .projects-list__title {
@@ -72,27 +74,27 @@
   transition: all 0.3s ease;
 }
 
-.projects-list__link:hover {
-  background-color: var(--clr-primary);
-  color: var(--clr-bg);
-}
-
 .projects-list__back {
-  margin-top: 3rem;
+  margin-top: 2rem;
   text-align: center;
 }
 
 .projects-list__back-link {
   display: inline-block;
-  color: var(--clr-primary);
+  padding: 0.5rem 1rem;
+  background-color: var(--clr-primary);
+  color: var(--clr-bg);
+  border-radius: 4px;
   text-decoration: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.25rem;
-  background-color: var(--clr-bg-alt);
-  transition: all 0.3s ease;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .projects-list__back-link:hover {
-  background-color: var(--clr-primary);
-  color: var(--clr-bg);
+  background-color: var(--clr-primary-dark);
+}
+
+@media (max-width: 768px) {
+  .projects-list__grid {
+    grid-template-columns: 1fr;
+  }
 } 

@@ -57,52 +57,58 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Project 1',
+    name: 'E-Commerce Platform',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'A full-featured e-commerce platform with real-time inventory management, secure payment processing, and an intuitive admin dashboard. Built with React and Node.js.',
+    stack: ['React', 'Node.js', 'MongoDB', 'Express', 'Redux'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Project 2',
+    name: 'Task Management App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'A collaborative task management application with real-time updates, team workspaces, and progress tracking. Features include drag-and-drop organization and deadline reminders.',
+    stack: ['React', 'Firebase', 'Material-UI', 'TypeScript'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Project 3',
+    name: 'Weather Dashboard',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'A weather dashboard that provides real-time weather data, forecasts, and interactive maps. Includes location-based weather alerts and historical weather data visualization.',
+    stack: ['React', 'OpenWeather API', 'Chart.js', 'CSS Modules'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Project 4',
+    name: 'Social Media Analytics',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'A comprehensive social media analytics platform that tracks engagement metrics, audience growth, and content performance across multiple platforms with customizable reports.',
+    stack: ['React', 'Python', 'Django', 'PostgreSQL', 'D3.js'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Project 5',
+    name: 'Fitness Tracking App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'A mobile-first fitness tracking application with workout planning, progress monitoring, and nutrition tracking. Includes integration with wearable devices and social sharing features.',
+    stack: ['React Native', 'Firebase', 'Redux', 'Node.js'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
   },
   {
-    name: 'Project 6',
+    name: 'Portfolio Website',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'A modern, responsive portfolio website showcasing projects and skills. Features smooth animations, dark/light mode, and optimized performance across all devices.',
+    stack: ['React', 'Material-UI', 'Framer Motion', 'CSS-in-JS'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
   },
 ]
 

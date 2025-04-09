@@ -4,14 +4,23 @@ import LaunchIcon from '@mui/icons-material/Launch'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
-  <div className='project'>
+  <div className='project-card'>
+    {project.image && (
+      <div className='project-card__image-container'>
+        <img 
+          src={project.image} 
+          alt={project.name} 
+          className='project-card__image'
+        />
+      </div>
+    )}
     <h3>{project.name}</h3>
 
-    <p className='project__description'>{project.description}</p>
+    <p className='project-card__description'>{project.description}</p>
     {project.stack && (
-      <ul className='project__stack'>
+      <ul className='project-card__stack'>
         {project.stack.map((item) => (
-          <li key={uniqid()} className='project__stack-item'>
+          <li key={uniqid()} className='project-card__stack-item'>
             {item}
           </li>
         ))}
