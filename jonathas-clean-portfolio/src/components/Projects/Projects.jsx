@@ -1,6 +1,7 @@
 import uniqid from 'uniqid'
 import { projects } from '../../portfolio'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
+import { Link } from 'react-router-dom'
 import './Projects.css'
 
 const Projects = () => {
@@ -14,6 +15,12 @@ const Projects = () => {
         {projects.map((project) => (
           <ProjectContainer key={uniqid()} project={project} />
         ))}
+      </div>
+      
+      <div className='projects__view-all'>
+        <Link to='/projects' className='projects__view-all-link'>
+          View All Projects
+        </Link>
       </div>
     </section>
   )

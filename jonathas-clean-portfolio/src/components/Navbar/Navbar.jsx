@@ -5,6 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu'
 import CloseIcon from '@mui/icons-material/Close'
 import { ThemeContext } from '../../contexts/theme'
 import { projects, skills, contact } from '../../portfolio'
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -21,13 +22,25 @@ const Navbar = () => {
       >
         {projects.length ? (
           <li className='nav__list-item'>
-            <a
-              href='#projects'
+            <Link
+              to='/'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
+              Home
+            </Link>
+          </li>
+        ) : null}
+
+        {projects.length ? (
+          <li className='nav__list-item'>
+            <Link
+              to='/projects'
               onClick={toggleNavList}
               className='link link--nav'
             >
               Projects
-            </a>
+            </Link>
           </li>
         ) : null}
 

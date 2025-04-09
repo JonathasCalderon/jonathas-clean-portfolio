@@ -22,30 +22,37 @@ const testimonials = [
     name: 'John Doe',
     role: 'Senior Software Engineer',
     company: 'Tech Corp',
-    image: 'https://via.placeholder.com/150',
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     text: 'Jonathas is an exceptional developer who consistently delivers high-quality code. His attention to detail and problem-solving skills are outstanding.',
   },
   {
-    name: 'John Doe',
-    role: 'Senior Software Engineer',
-    company: 'Tech Corp',
-    image: 'https://via.placeholder.com/150',
-    text: 'Jonathas is an exceptional developer who consistently delivers high-quality code. His attention to detail and problem-solving skills are outstanding.',
-  },
-  {
-    name: 'Jane Smith',
+    name: 'Sarah Johnson',
     role: 'Project Manager',
     company: 'Innovation Labs',
-    image: 'https://via.placeholder.com/150',
+    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     text: 'Working with Jonathas was a pleasure. His communication skills and ability to work in a team environment made our project a success.',
   },
   {
-    name: 'Mike Johnson',
+    name: 'Michael Chen',
     role: 'CTO',
     company: 'StartUp Inc',
-    image: 'https://via.placeholder.com/150',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     text: 'Jonathas brought valuable expertise to our team. His technical knowledge and dedication to quality were instrumental in our project\'s success.',
   },
+  {
+    name: 'Emily Rodriguez',
+    role: 'Product Owner',
+    company: 'Digital Solutions',
+    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    text: 'Jonathas consistently delivered high-quality work and was always willing to go the extra mile. His technical expertise and collaborative nature made him an invaluable team member.',
+  },
+  {
+    name: 'David Wilson',
+    role: 'Lead Developer',
+    company: 'Tech Innovations',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    text: 'Having worked with Jonathas on multiple projects, I can confidently say that he is one of the most skilled and reliable developers I\'ve had the pleasure to collaborate with.',
+  }
 ]
 
 const projects = [
