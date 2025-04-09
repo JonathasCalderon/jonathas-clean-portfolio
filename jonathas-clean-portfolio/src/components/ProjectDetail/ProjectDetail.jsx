@@ -27,6 +27,16 @@ const ProjectDetail = () => {
           <div className='project-detail__container'>
             <h2 className='section__title'>{project.name}</h2>
             
+            {project.image && (
+              <div className='project-detail__image-container'>
+                <img 
+                  src={project.image} 
+                  alt={project.name} 
+                  className='project-detail__image'
+                />
+              </div>
+            )}
+            
             <div className='project-detail__content'>
               <div className='project-detail__description'>
                 <h3 className='project-detail__subtitle'>Description</h3>
