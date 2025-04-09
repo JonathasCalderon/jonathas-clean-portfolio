@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { contact } from '../../portfolio'
 import { useContext } from 'react'
 import { ThemeContext } from '../../contexts/theme'
@@ -9,10 +10,19 @@ import PhoneIcon from '@mui/icons-material/Phone'
 import './Contact.css'
 
 const Contact = () => {
+  
+  const [copiedPhone, setCopiedPhone] = useState(false)
+
   const [{ themeName }] = useContext(ThemeContext)
 
   const handleEmailClick = () => {  
     window.location.href = 'mailto:calderonjonathas@gmail.com'
+  }
+
+  const handleCopyPhone = () => {
+    navigator.clipboard.writeText(contact.phone)
+    setCopiedPhone(true)
+    setTimeout(() => setCopiedPhone(false), 2000)
   }
 
   return (
@@ -34,11 +44,12 @@ const Contact = () => {
           </div>
           
           {contact.phone && (
-            <div className='contact__info-item'>
+            <div className='contact__info-item' onClick={handleCopyPhone} style={{ cursor: 'pointer' }}>
               <PhoneIcon className="contact__icon" />
-              <a href={`tel:${contact.phone}`} className='contact__link'>
+              <span className='contact__link'>
                 {contact.phone}
-              </a>
+                {copiedPhone && <span style={{ marginLeft: '10px', color: 'var(--clr-primary)' }}>Copied!</span>}
+              </span>
             </div>
           )}
           

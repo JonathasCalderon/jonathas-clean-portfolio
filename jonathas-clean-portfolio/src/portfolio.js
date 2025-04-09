@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
+  homepage: 'https://jonathascalderon.com',
   title: 'JC.',
 }
 
@@ -94,8 +94,8 @@ const skills = [
 
 const contact = {
   email: 'calderonjonathas@gmail.com',
-  phone: '+1 (123) 456-7890',
-  location: 'San Francisco, CA',
+  phone: '+591 77906005',
+  location: 'Cochabamba, Bolivia',
 }
 
 export { header, about, projects, skills, contact, testimonials }
